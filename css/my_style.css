@@ -1,0 +1,189 @@
+
+body{margin:0px;
+font-family: 'Times New Roman', Times, serif;}
+.container{
+    width:100%; 
+    background-color: white; 
+    position: fixed; 
+   box-sizing: initial;  
+   top:0;
+   z-index: 1;
+    box-shadow: 0 2px 5px 1px rgba(0,0,0,0.16);
+    overflow: hidden;
+   
+}
+.navbar{
+   font-family: "Playfair Display";
+   font-size: 15px; 
+   letter-spacing: 4px;
+   line-height: 1.5;
+   margin:6px; 
+   min-width: 800px;
+   overflow: hidden;
+}
+
+.left_side{
+    float: left;
+    padding:10px 20px; 
+    overflow: hidden;
+}
+.navbar ol{
+    float: right;
+    list-style: none;
+    margin: 0px;
+    overflow: hidden;
+    
+
+}
+.navbar ol li{
+  
+    padding:10px 0px; 
+    float: left;
+    
+}
+
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    padding:10px 20px; 
+
+}
+ .navbar a:hover{
+   background-color: rgb(221, 221, 221);
+
+}
+
+.header{
+    background-image: url('../images/hamburger.jpg') ;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 100%; */
+    height: 800px;
+    max-width: 1800px;
+    min-width: 500px;
+    margin:auto;
+    position: relative;
+}
+h1,h2,h4,h5{
+    font-weight: normal;
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    margin:10px 0;
+
+}
+.header h1{
+   position: absolute;
+   left:40px;
+   bottom:20px;
+   opacity: 0.6;
+   font-size: 40px;   
+}
+
+.content{
+    max-width:1200px;
+    margin: auto;
+    overflow: hidden;
+}
+#about, #menu{
+    border-bottom:1px solid #eae8e8;
+    padding:90px 0px;
+    overflow: hidden;
+    
+}
+.about{
+    float: left;
+    padding:25px;
+    width: 500px;
+    line-height: 1.5;
+    font-size: 18px;
+    overflow: hidden;
+    
+}
+
+#about div h1,h5 ,#menu h1{
+   text-align: center;  
+}
+.prag{
+    color: #757575;
+    overflow: hidden;
+}
+#menu div{
+    float: left;
+    max-width: 45%;
+    line-height: 1.5;
+   padding:0px 20px ;
+   overflow: hidden;
+    
+}
+#menu div h4{
+   font-size: 20px;
+  
+}
+#menu div p{
+    color: #757575;
+    font-size: 15px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+.navbar::after, .header::before, .about::after, #menu div::after {clear: both;} 
+#contact{
+    padding:60px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    overflow: hidden;
+}  
+#contact h1{
+    font-size: 36px;
+    padding:10px 0;
+    margin-bottom:30px;
+
+} 
+#contact input{
+    display: block;
+    padding:30px 0px 20px;
+    border: none;
+    border-bottom: 1px solid #ccc7c7;
+    width:100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    overflow: hidden;
+}
+#contact button{
+    display: block;
+    margin:20px 0px;
+    padding: 10px 15px;
+    border:none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    overflow: hidden;
+}
+#paragraph{
+color: #607d8b;
+font-weight: bold;
+font-size: 18px;
+overflow: hidden;
+}
+.footer{
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+
+}
+.footer p{
+    margin: 51px auto;
+    width: 133px;
+    text-align: center;
+    font-size: 15px;
+    overflow: hidden;
+}
+.footer a{
+    color:black;
+}
+.footer a:hover{
+    color: rgba(24, 158, 30, 0.884);
+
+}
